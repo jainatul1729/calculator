@@ -1,0 +1,32 @@
+.calculator{ 
+     max-width: 400px;
+     margin: 7vh auto 0 auto;
+}
+
+#display{
+    text-align: right;
+    height: 30px;
+    line-height: 40px;
+    border: 2px solid pink;
+    padding: 10px 8px;
+}
+.keyboard{
+    display: grid;
+    border-bottom: 1ps solid #999;
+    border-left: 1ps solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.button{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#equal{
+    background-color: purple;
+    color: white;
+}
+.button:hover{
+    background-color: lightpink;
+}
